@@ -15,7 +15,6 @@ class Layouts extends Component {
     }));
   };
   render() {
-    console.log(this.state.isopensidebar);
     return (
       <Auxillary>
         <Sidebar
