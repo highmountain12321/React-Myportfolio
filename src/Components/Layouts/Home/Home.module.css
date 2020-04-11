@@ -1,0 +1,68 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.content {
+  color: white;
+}
+.content h1 {
+  font-weight: bold;
+}
+.content h1 span {
+  color: #037fff;
+}
+.typedcursor {
+  font-size: 25px;
+  font-weight: bold;
+  color: #a4acc4;
+}
+.socila_icons a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #2e344e;
+  color: #a4acc4;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.socila_icons a:hover {
+  color: white;
+}
+@media (max-width: 500px) {
+  .socila_icons a {
+    width: 35px;
+    height: 35px;
+  }
+  .content h1 {
+    font-size: 2rem;
+  }
+}
+
+.container {
+  width: 76.6% !important;
+  margin-left: 317px !important;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100% !important;
+    margin-left: auto !important;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 100% !important;
+    margin-left: auto !important;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 100% !important;
+    margin-left: auto !important;
+  }
+}

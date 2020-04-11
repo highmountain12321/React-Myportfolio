@@ -1,0 +1,28 @@
+.hamburger {
+  position: absolute;
+  top: 31px;
+  left: 100%;
+  width: 45px;
+  height: 45px;
+  background-color: #191d2b;
+  font-size: 24px;
+  color: #a4acc4;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .hamburger {
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  .hamburger {
+    display: block;
+  }
+}

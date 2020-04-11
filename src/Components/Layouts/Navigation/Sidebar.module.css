@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background: #191d2b;
+  border-right: 1px solid #2e344e;
+  z-index: 10;
+  transition: all 0.4s ease-out;
+}
+@media (max-width: 500px) {
+  .Closesidebar {
+    transform: translateX(-260px);
+  }
+}
+@media (max-width: 700px) {
+  .Closesidebar {
+    transform: translateX(-260px);
+  }
+}
+@media (max-width: 1000px) {
+  .Closesidebar {
+    transform: translateX(-260px);
+  }
+}
+/* //Open SideBar */
+@media (max-width: 500px) {
+  .Opensidebar {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 700px) {
+  .Opensidebar {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1000px) {
+  .Opensidebar {
+    transform: translateX(0);
+  }
+}
