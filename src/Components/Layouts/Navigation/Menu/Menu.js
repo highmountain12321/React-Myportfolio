@@ -18,7 +18,12 @@ class Menu extends Component {
         {this.state.menu.map((menu) => {
           return (
             <li>
-              <NavLink exact to={menu.path} activeClassName={Classes.active}>
+              <NavLink
+                onClick={this.props.clicked}
+                exact
+                to={menu.path}
+                activeClassName={Classes.active}
+              >
                 {menu.name}
               </NavLink>
             </li>

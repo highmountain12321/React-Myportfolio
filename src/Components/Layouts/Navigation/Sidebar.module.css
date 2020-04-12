@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 20%;
   height: 100vh;
   background: #191d2b;
   border-right: 1px solid #2e344e;
@@ -11,32 +11,38 @@
 }
 @media (max-width: 500px) {
   .Closesidebar {
+    width: 260px;
     transform: translateX(-260px);
   }
 }
 @media (max-width: 700px) {
   .Closesidebar {
+    width: 260px;
     transform: translateX(-260px);
   }
 }
 @media (max-width: 1000px) {
   .Closesidebar {
+    width: 260px;
     transform: translateX(-260px);
   }
 }
 /* //Open SideBar */
 @media (max-width: 500px) {
   .Opensidebar {
+    width: 260px;
     transform: translateX(0);
   }
 }
 @media (max-width: 700px) {
   .Opensidebar {
+    width: 260px;
     transform: translateX(0);
   }
 }
 @media (max-width: 1000px) {
   .Opensidebar {
+    width: 260px;
     transform: translateX(0);
   }
 }

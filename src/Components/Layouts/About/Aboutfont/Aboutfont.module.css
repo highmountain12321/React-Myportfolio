@@ -1,0 +1,36 @@
+.about_font {
+  position: relative;
+}
+.about_font h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about_font span {
+  position: absolute;
+  left: 0;
+  top: -19%;
+  font-size: 4.5rem;
+  color: rgba(25, 29, 43, 0.44);
+  text-transform: uppercase;
+  font-weight: 900;
+  z-index: -10;
+}
+
+@media (max-width: 500px) {
+  .about_font span {
+    font-size: 3rem;
+    top: 46%;
+  }
+}
+@media (max-width: 700px) {
+  .about_font span {
+    font-size: 3rem;
+    top: 46%;
+  }
+}
+@media (max-width: 1000px) {
+  .about_font span {
+    font-size: 3rem;
+    top: 46%;
+  }
+}

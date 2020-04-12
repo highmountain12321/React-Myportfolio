@@ -15,7 +15,7 @@ const sidebar = (props) => {
       <nav className={sidebar.join(" ")}>
         <Button iconshap={props.Opensidebar} clicked={props.clicked} />
         <Profile />
-        <Menu />
+        <Menu clicked={props.clicked} />
       </nav>
     </Auxillary>
   );

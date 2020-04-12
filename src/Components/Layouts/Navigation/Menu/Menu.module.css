@@ -24,9 +24,14 @@
   align-items: center;
   color: #a4acc4;
   text-decoration: none;
+  text-transform: uppercase;
   outline: none;
+  transition: all 0.4s ease-in-out;
+}
+.list li a:hover {
+  background-color: #037fff;
 }
 .active {
-  color: white;
+  color: white !important;
   background-color: #037fff;
 }
