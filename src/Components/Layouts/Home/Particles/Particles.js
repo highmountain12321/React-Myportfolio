@@ -13,8 +13,11 @@ const particles = (props) => {
               enable: false,
             },
           },
+          color: {
+            value: "#53535366",
+          },
           size: {
-            value: 5,
+            value: 4,
             random: true,
             anim: {
               speed: 4,
@@ -56,6 +59,7 @@ const particles = (props) => {
           },
         },
       }}
+      className={Classes.canvas}
       canvasClassName={Classes.particles}
       //   style={{
       //     position: "absolute",

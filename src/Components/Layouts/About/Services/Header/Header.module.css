@@ -5,6 +5,26 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.header h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 43px;
+  bottom: 0;
+  height: 5px;
+  width: 100px;
+  background: rgba(3, 127, 255, 0.3);
+  border-radius: 100px;
+}
+.header h2::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 43px;
+  width: 49px;
+  height: 5px;
+  background: #037fff;
+}
 .header span {
   position: absolute;
   left: 0;
