@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Classes from "./Aboutfont.module.css";
 
 const aboutfont = () => {

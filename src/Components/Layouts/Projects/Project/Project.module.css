@@ -1,0 +1,94 @@
+.content {
+  margin-top: 85px;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  grid-row-gap: 78px;
+  grid-auto-flow: dense;
+  margin-bottom: 50px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.topic {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 24, 24, 0.83);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.topic span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: 700;
+}
+.topic:hover {
+  opacity: 1;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+}
+.githubbut {
+  width: 100%;
+  height: 100%;
+  height: 45px;
+  background-color: #037fff;
+  color: white;
+  border: none;
+}
+.githubbut:focus,
+.githubbut:hover {
+  background-color: #0069d9;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+  .topic span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 700px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+  .topic span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1000px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+  .topic span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

@@ -33,7 +33,7 @@ class Contact extends Component {
         break;
       case "email":
         focus.emailfocus =
-          value.indexOf("@") == -1 || value.indexOf(".") == -1
+          value.indexOf("@") === -1 || value.indexOf(".") === -1
             ? "Email should be @gmail.com form."
             : true;
         break;

@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Resume from "./Resume/Resume";
+import Projects from "./Projects/Projects";
 import Sidebar from "./Navigation/Sidebar";
 import Auxillary from "../../hoc/Auxillary";
 
@@ -24,10 +25,11 @@ class Layouts extends Component {
           clicked={this.Opensidebar}
         />
         <Switch>
-          <Route exact path="/" exact component={Home} />
-          <Route exact path="/about" exact component={About} />
-          <Route exact path="/contact" exact component={Contact} />
-          <Route exact path="/resume" exact component={Resume} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/projects" component={Projects} />
         </Switch>
       </Auxillary>
     );

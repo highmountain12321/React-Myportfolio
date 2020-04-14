@@ -10,6 +10,9 @@
   border: none;
   display: none;
 }
+.hamburger:focus {
+  outline: none;
+}
 
 @media (max-width: 500px) {
   .hamburger {
