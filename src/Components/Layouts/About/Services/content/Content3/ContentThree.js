@@ -5,14 +5,13 @@ const contentthree = () => {
   return (
     <Auxillary>
       <span>
-        <i class="fas fa-database"></i>
+        <i className="fas fa-database"></i>
       </span>
       <h5>Database design</h5>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-        molestiae obcaecati tempore hic eveniet alias in voluptates neque iusto
-        aspernatur id, ad necessitatibus nemo maiores quam sed odio doloremque
-        corrupti!
+        Experience in designing database schemas and creating realtional
+        database design and data modeling. Familarity with stored procedures and
+        database normalization.
       </p>
     </Auxillary>
   );

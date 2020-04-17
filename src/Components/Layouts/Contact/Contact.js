@@ -3,6 +3,7 @@ import Contactform from "./form/Contactform";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import Auxillary from "../../../hoc/Auxillary";
+import { Spring } from "react-spring/renderprops";
 import Classes from "./Contact.module.css";
 class Contact extends Component {
   constructor(props) {
@@ -109,26 +110,35 @@ class Contact extends Component {
     }
     return (
       <Auxillary>
-        <div className={Classes.container}>
-          <div className={Classes.content}>
-            <div className={Classes.contact}>
-              <h2>Get In touch</h2>
-              <span>contact Me</span>
+        <Spring
+          from={{ opacity: 0 }}
+          to={{ opacity: 1 }}
+          config={{ delay: 500, duration: 500 }}
+        >
+          {(props) => (
+            <div style={props} className={Classes.container}>
+              <div className={Classes.content}>
+                <div className={Classes.contact}>
+                  <h2>Get In touch</h2>
+                  <span>contact Me</span>
+                </div>
+                <div className={Classes.contact_form}>
+                  <Contactform
+                    error={this.state.error}
+                    handleSubmit={this.handleSubmit}
+                    handleChange={this.handleChange}
+                    name={this.state.name}
+                    email={this.state.email}
+                    phone={this.state.phone}
+                    focus={this.state.focus}
+                    buttondisabled={buttondisabled}
+                  />
+                </div>
+              </div>
             </div>
-            <div className={Classes.contact_form}>
-              <Contactform
-                error={this.state.error}
-                handleSubmit={this.handleSubmit}
-                handleChange={this.handleChange}
-                name={this.state.name}
-                email={this.state.email}
-                phone={this.state.phone}
-                focus={this.state.focus}
-                buttondisabled={buttondisabled}
-              />
-            </div>
-          </div>
-        </div>
+          )}
+        </Spring>
+
         <ToastContainer />
       </Auxillary>
     );

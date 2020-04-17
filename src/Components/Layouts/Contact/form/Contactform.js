@@ -29,7 +29,7 @@ const contactform = (props) => {
           name="email"
           onChange={props.handleChange}
           value={props.email}
-          placeholder="John doe"
+          placeholder="@gmail.com"
         />
         <span style={{ color: "red" }}>{emailerror}</span>
         <span style={{ color: "red" }}>{emailfocus}</span>
@@ -42,7 +42,7 @@ const contactform = (props) => {
           name="phone"
           onChange={props.handleChange}
           value={props.phone}
-          placeholder="John doe"
+          placeholder="eg-9801234561"
         />
         <span style={{ color: "red" }}>{phoneerror}</span>
         <span style={{ color: "red" }}>{phonefocus}</span>

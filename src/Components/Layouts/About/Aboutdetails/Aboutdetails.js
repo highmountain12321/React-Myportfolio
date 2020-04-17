@@ -5,12 +5,12 @@ import mycv from "../../../../assests/CV/myname.pdf";
 import Classes from "./Aboutdetails.module.css";
 
 const aboutdetailes = () => {
-  const table = ["table-responsive", Classes.textcolor];
+  const table = ["table table-borderless", Classes.textcolor];
   return (
     <div className={Classes.aboutdetailes}>
       <div className={Classes.myimage}>
         <a href={myimage}>
-          <img src={myimage} alt="My image" />
+          <img src={myimage} alt="Sajid Ansari" />
         </a>
       </div>
       <div className={Classes.mydetails}>
@@ -18,9 +18,10 @@ const aboutdetailes = () => {
           I am <span>Sajid Ansari</span>
         </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis et
-          minima neque illum amet eos hic. At incidunt nihil quae modi. Alias
-          repudiandae et ut aspernatur maxime dolor suscipit eveniet.
+          Innovative Web Developer, number of experience in website design and
+          Back-end . Demonstrated talent for front and back-end web development
+          to optimize online presence. Seasoned expert in languages such as
+          HTML,CSS,PHP and as well as scripting languages and JavaScript.
         </p>
         <table className={table.join(" ")}>
           <Table />

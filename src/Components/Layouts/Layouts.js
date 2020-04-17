@@ -7,6 +7,7 @@ import Resume from "./Resume/Resume";
 import Projects from "./Projects/Projects";
 import Sidebar from "./Navigation/Sidebar";
 import Auxillary from "../../hoc/Auxillary";
+import Pagenotfound from "./PageNotFound/PageNotFound";
 
 class Layouts extends Component {
   state = {
@@ -30,6 +31,7 @@ class Layouts extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact component={Pagenotfound} />
         </Switch>
       </Auxillary>
     );

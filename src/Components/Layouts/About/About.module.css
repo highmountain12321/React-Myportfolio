@@ -5,8 +5,8 @@
 }
 
 .container {
-  width: 76.6% !important;
-  margin-left: 294px !important;
+  width: 80% !important;
+  margin-left: 19.5% !important;
 }
 @media (max-width: 500px) {
   .container {
