@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import Auxillary from "../../../hoc/Auxillary";
 import { Spring } from "react-spring/renderprops";
+import axios from "../../../axiosinstance";
 import Classes from "./Contact.module.css";
 class Contact extends Component {
   constructor(props) {
@@ -85,14 +86,21 @@ class Contact extends Component {
         email: this.state.email,
         phone: this.state.phone,
       };
-      this.setState({ data: [data] });
+      axios
+        .post("/contact.json", data)
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+      // this.setState({ data: [data] });
       this.setState({ error: {}, name: "", email: "", phone: "" });
       this.setState({ focus: { name: "", email: "", phone: "" } });
       toast.success("Thank You for Contacting");
     }
   };
   render() {
-    console.log(this.state.data);
     const { namefocus, emailfocus, phonefocus } = this.state.focus;
     let buttondisabled = null;
     if (namefocus === true && emailfocus === true && phonefocus === true) {
