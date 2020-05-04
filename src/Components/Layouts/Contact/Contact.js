@@ -40,7 +40,7 @@ class Contact extends Component {
             : true;
         break;
       case "phone":
-        if (value.length < 10 || value.length > 10) {
+        if (value.length !== 10) {
           focus.phonefocus = "Number should be equal to 10.";
         } else if (Math.sign(value) === -1) {
           focus.phonefocus = "Number cannot have - sigh.";
@@ -72,7 +72,7 @@ class Contact extends Component {
         error: { phoneerror: "Please enter the valid phone number, " },
         valid: false,
       });
-    } else if (phone.length < 10 || phone.length > 10) {
+    } else if (phone.length !== 10) {
       return this.setState({
         error: { phoneerror: "Please enter the valid phone number, " },
         valid: false,
@@ -102,16 +102,14 @@ class Contact extends Component {
   };
   render() {
     const { namefocus, emailfocus, phonefocus } = this.state.focus;
-    let buttondisabled = null;
+    let buttondisabled = (
+      <button type="submit" disabled className="btn btn-primary">
+        Submit
+      </button>
+    );
     if (namefocus === true && emailfocus === true && phonefocus === true) {
       buttondisabled = (
         <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
-      );
-    } else {
-      buttondisabled = (
-        <button type="submit" disabled className="btn btn-primary">
           Submit
         </button>
       );
