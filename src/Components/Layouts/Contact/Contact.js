@@ -89,7 +89,7 @@ class Contact extends Component {
       axios
         .post("/contact.json", data)
         .then((res) => {
-          console.log(res);
+          toast.success("Thank You for Contacting");
         })
         .catch((error) => {
           console.log(error);
@@ -97,7 +97,6 @@ class Contact extends Component {
       // this.setState({ data: [data] });
       this.setState({ error: {}, name: "", email: "", phone: "" });
       this.setState({ focus: { name: "", email: "", phone: "" } });
-      toast.success("Thank You for Contacting");
     }
   };
   render() {
