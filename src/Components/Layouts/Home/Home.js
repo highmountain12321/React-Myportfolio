@@ -16,9 +16,10 @@ const home = () => {
             </h1>
             <Typed
               strings={[
+                "NodeJs Developer",
+                "React Developer",
                 "PHP Developer",
                 "Laravel Developer",
-                "React Developer",
               ]}
               typeSpeed={40}
               backSpeed={50}
