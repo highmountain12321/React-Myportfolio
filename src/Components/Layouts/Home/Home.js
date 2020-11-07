@@ -8,7 +8,6 @@ const home = () => {
   return (
     <Auxillary>
       <Particles />
-
       <div className={Classes.container}>
         <div className={Classes.box}>
           <div className={Classes.content}>

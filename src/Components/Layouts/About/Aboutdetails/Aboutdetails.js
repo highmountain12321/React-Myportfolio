@@ -1,7 +1,7 @@
 import React from "react";
 import myimage from "../../../../assests/about/sajid.JPG";
 import Table from "./Table/Table";
-import mycv from "../../../../assests/CV/myname.pdf";
+import mycv from "../../../../assests/CV/Sajid_Ansari_CV.pdf";
 import Classes from "./Aboutdetails.module.css";
 
 const aboutdetailes = () => {
