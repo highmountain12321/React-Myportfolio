@@ -17,7 +17,7 @@ const icons = () => {
         <i class="fab fa-github"></i>
       </a>
       <a href="https://medium.com/@sajidansari33272">
-        <i class="fab fa-medium"></i>
+        <i class="fab fa-medium-m"></i>
       </a>
     </Auxillary>
   );
