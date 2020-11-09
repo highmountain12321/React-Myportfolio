@@ -44,7 +44,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(100px, auto);
-  grid-gap: 25px;
+  grid-gap: 15px;
   grid-auto-flow: dense;
   margin-bottom: 50px;
 }
