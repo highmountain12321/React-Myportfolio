@@ -7,7 +7,7 @@ import img4 from "../../../../assests/projects/laravelmulti.PNG";
 import img5 from "../../../../assests/projects/laravelblog.PNG";
 import img6 from "../../../../assests/projects/laravelacl.PNG";
 import img7 from "../../../../assests/projects/blogmanagment.PNG";
-import img8 from "../../../../assests/projects/reactToDoList.PNG";
+import img8 from "../../../../assests/projects/reacttodolist.PNG";
 import img9 from "../../../../assests/projects/shoppoint.PNG";
 import img10 from "../../../../assests/projects/aichatbot.PNG";
 import img11 from "../../../../assests/projects/udemyclone.PNG";
