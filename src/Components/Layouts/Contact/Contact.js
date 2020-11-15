@@ -121,24 +121,22 @@ class Contact extends Component {
           config={{ delay: 500, duration: 500 }}
         >
           {(props) => (
-            <div style={props} className={Classes.container}>
-              <div className={Classes.content}>
-                <div className={Classes.contact}>
-                  <h2>Get In touch</h2>
-                  <span>contact Me</span>
-                </div>
-                <div className={Classes.contact_form}>
-                  <Contactform
-                    error={this.state.error}
-                    handleSubmit={this.handleSubmit}
-                    handleChange={this.handleChange}
-                    name={this.state.name}
-                    email={this.state.email}
-                    phone={this.state.phone}
-                    focus={this.state.focus}
-                    buttondisabled={buttondisabled}
-                  />
-                </div>
+            <div style={props} className={Classes.content}>
+              <div className={Classes.contact}>
+                <h2>Get In touch</h2>
+                <span>contact Me</span>
+              </div>
+              <div className={Classes.contact_form}>
+                <Contactform
+                  error={this.state.error}
+                  handleSubmit={this.handleSubmit}
+                  handleChange={this.handleChange}
+                  name={this.state.name}
+                  email={this.state.email}
+                  phone={this.state.phone}
+                  focus={this.state.focus}
+                  buttondisabled={buttondisabled}
+                />
               </div>
             </div>
           )}

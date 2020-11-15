@@ -13,12 +13,10 @@ const about = () => {
       config={{ delay: 500, duration: 500 }}
     >
       {(props) => (
-        <div style={props} className={Classes.container}>
-          <div className={Classes.content}>
-            <Aboutfont />
-            <Aboutdetails />
-            <Services />
-          </div>
+        <div style={props} className={Classes.content}>
+          <Aboutfont />
+          <Aboutdetails />
+          <Services />
         </div>
       )}
     </Spring>

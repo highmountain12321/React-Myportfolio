@@ -12,15 +12,13 @@ const resume = () => {
       config={{ delay: 500, duration: 500 }}
     >
       {(props) => (
-        <div style={props} className={Classes.container}>
-          <div className={Classes.content}>
-            <div className={Classes.resume}>
-              <h2>Resume</h2>
-              <span>My Resume</span>
-            </div>
-            <Content />
-            <Skills />
+        <div style={props} className={Classes.content}>
+          <div className={Classes.resume}>
+            <h2>Resume</h2>
+            <span>My Resume</span>
           </div>
+          <Content />
+          <Skills />
         </div>
       )}
     </Spring>
