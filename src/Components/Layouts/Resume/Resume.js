@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "./content/Content";
-import Skills from "./Skills/Skills";
+import Skills from "./skills/Skills";
+import Experience from "./experience/Experience";
 import { Spring } from "react-spring/renderprops";
 import Classes from "./Resume.module.css";
 
@@ -19,6 +20,7 @@ const resume = () => {
           </div>
           <Content />
           <Skills />
+          <Experience />
         </div>
       )}
     </Spring>

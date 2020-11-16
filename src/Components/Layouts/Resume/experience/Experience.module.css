@@ -1,0 +1,50 @@
+.experience {
+  position: relative;
+}
+.experience h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.experience h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 43px;
+  bottom: 0;
+  height: 5px;
+  width: 100px;
+  background: rgba(3, 127, 255, 0.3);
+  border-radius: 100px;
+}
+.experience h2::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 43px;
+  width: 49px;
+  height: 5px;
+  background: #037fff;
+}
+.experience span {
+  position: absolute;
+  left: 0;
+  top: -19%;
+  font-size: 4.5rem;
+  color: rgba(25, 29, 43, 0.44);
+  text-transform: uppercase;
+  font-weight: 900;
+  z-index: -10;
+}
+
+.timeline h4::before {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 3px;
+  background-color: #2e344e;
+  top: 94px;
+}
+.timeline p {
+  color: #a4acc4;
+  margin-top: 30px;
+}
