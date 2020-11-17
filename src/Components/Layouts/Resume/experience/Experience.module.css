@@ -48,3 +48,30 @@
   color: #a4acc4;
   margin-top: 30px;
 }
+@media (max-width: 500px) {
+  .experience span {
+    font-size: 2.7rem;
+    top: 46%;
+  }
+  .timeline h4::before {
+    top: 82px;
+  }
+}
+@media (max-width: 700px) {
+  .experience span {
+    font-size: 2.7rem;
+    top: 46%;
+  }
+  .timeline h4::before {
+    top: 82px;
+  }
+}
+@media (max-width: 1000px) {
+  .experience span {
+    font-size: 2.7rem;
+    top: 46%;
+  }
+  .timeline h4::before {
+    top: 82px;
+  }
+}

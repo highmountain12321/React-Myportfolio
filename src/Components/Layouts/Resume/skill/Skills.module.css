@@ -38,7 +38,7 @@
 
 /* //skillcontetcss */
 .skills_content {
-  margin-top: 61px;
+  margin-top: 80px;
   position: relative;
   width: 100%;
   display: grid;
@@ -92,15 +92,7 @@
 .content {
   text-align: center;
 }
-/* .content h5 {
-  margin-top: 20px;
-  text-transform: capitalize;
-  margin-bottom: 44px;
-}
 
-.content p {
-  color: #a4acc4;
-} */
 @media (max-width: 500px) {
   .skills_content {
     grid-template-columns: repeat(1, 1fr);
@@ -140,11 +132,3 @@
     top: 46%;
   }
 }
-/* .back {
-  background: rgba(3, 127, 255, 0.3);
-  border-radius: 100px;
-}
-.symbol {
-  color: white;
-  display: none;
-} */
