@@ -12,33 +12,6 @@ body {
   width: 80% !important;
   margin-left: 19.5% !important;
 }
-@media (max-width: 500px) {
-  .container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-}
-@media (max-width: 700px) {
-  .container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-}
-@media (max-width: 1000px) {
-  .container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-}
 
 .vertical-timeline {
   margin-top: 85px;
@@ -61,16 +34,37 @@ body {
 }
 
 @media (max-width: 500px) {
+  .container {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
   .vertical-timeline-element-title {
     font-size: 23px;
   }
 }
 @media (max-width: 700px) {
+  .container {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
   .vertical-timeline-element-title {
     font-size: 23px;
   }
 }
 @media (max-width: 1000px) {
+  .container {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
   .vertical-timeline-element-title {
     font-size: 23px;
   }

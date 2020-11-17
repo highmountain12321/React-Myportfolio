@@ -13,6 +13,7 @@ import mysql from "../../../../assests/skills/mysql.png";
 import mongodb from "../../../../assests/skills/mongodb.png";
 import pwa from "../../../../assests/skills/pwa.png";
 import git from "../../../../assests/skills/git.png";
+import express from "../../../../assests/skills/expressjs.png";
 import Classes from "./Skills.module.css";
 
 const Skills = () => {
@@ -91,6 +92,20 @@ const Skills = () => {
               <img src={nodejs} alt="NODEJS" />
             </div>
             <h4>nodejs</h4>
+          </div>
+        </div>
+        <div className={Classes.box}>
+          <div className={Classes.content}>
+            <div
+              className={Classes.skill_logo_website_logo}
+              style={{
+                paddingTop: "65px",
+                paddingBottom: "65px",
+              }}
+            >
+              <img src={express} alt="EXPRESSJS" />
+            </div>
+            <h4>EXPRESSJS</h4>
           </div>
         </div>
         <div className={Classes.box}>

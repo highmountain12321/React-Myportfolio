@@ -9,6 +9,7 @@ class Menu extends Component {
       { id: 2, name: "About", path: "/about" },
       { id: 3, name: "Resume", path: "/resume" },
       { id: 4, name: "Projects", path: "/projects" },
+      { id: 4, name: "Blogs", path: "/blogs" },
       { id: 5, name: "Contact", path: "/contact" },
     ],
   };
