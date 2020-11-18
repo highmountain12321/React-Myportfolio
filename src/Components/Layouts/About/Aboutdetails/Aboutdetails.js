@@ -21,7 +21,8 @@ const aboutdetailes = () => {
           Innovative Web Developer, number of experience in website design and
           Back-end . Demonstrated talent for front and back-end web development
           to optimize online presence. Seasoned expert in languages such as
-          HTML,CSS,PHP and as well as scripting languages and JavaScript.
+          HTML, SASS/CSS, PHP, laravel as well as scripting languages and
+          JavaScript such as REACTJS, NODEJS and API building.
         </p>
         <table className={table.join(" ")}>
           <Table />
