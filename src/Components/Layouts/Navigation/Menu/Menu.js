@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 class Menu extends Component {
   state = {
     menu: [
-      { id: 1, name: "Ho", path: "/" },
+      { id: 1, name: "Home", path: "/" },
       { id: 2, name: "About", path: "/about" },
       { id: 3, name: "Resume", path: "/resume" },
       { id: 4, name: "Projects", path: "/projects" },
