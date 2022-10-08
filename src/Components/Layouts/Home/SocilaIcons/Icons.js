@@ -4,7 +4,7 @@ import Auxillary from "../../../../hoc/Auxillary";
 const icons = () => {
   return (
     <Auxillary>
-      <a href="https://www.facebook.com/atif.ansari.31337194">
+      <a href="https://www.facebook.com/sajidansari33272/">
         <i class="fab fa-facebook-f"></i>
       </a>
       <a href="https://www.instagram.com/dev_sajid/">
