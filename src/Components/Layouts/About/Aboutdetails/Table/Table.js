@@ -5,8 +5,8 @@ class Table extends Component {
   state = {
     data: [
       { id: 1, head: "Name", name: ": Sajid Ansari" },
-      { id: 2, head: "Age", name: ": 23" },
-      { id: 3, head: "Address", name: ": Maitidevi,Kathmandu" },
+      { id: 2, head: "Age", name: ": 25" },
+      { id: 3, head: "Address", name: ": Kathmandu, Nepal" },
       { id: 4, head: "Contact", name: ": 9817253327" },
     ],
   };

@@ -18,11 +18,9 @@ const aboutdetailes = () => {
           I am <span>Sajid Ansari</span>
         </h2>
         <p>
-          Innovative Web Developer, number of experience in website design and
-          Back-end . Demonstrated talent for front and back-end web development
-          to optimize online presence. Seasoned expert in languages such as
-          HTML, SASS/CSS, PHP, laravel as well as scripting languages and
-          JavaScript such as REACTJS, NODEJS and API building.
+        I'm Sajid Ansari, a computer science student from Nepal & a passionate software engineer specializing in excellent software development that matters. Currently, I am working as a Software engineer at Leapfrog Technology Inc. <br/>
+
+        With an additional interest in improving the technology community & write open source software, you will find me active in tech communities, writing tech-related blogs, encouraging people on software engineering and writing open-source projects. 
         </p>
         <table className={table.join(" ")}>
           <Table />

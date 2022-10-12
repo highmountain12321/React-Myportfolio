@@ -14,11 +14,11 @@ export default function Experience() {
         <span>My Experience</span>
       </div>
       <VerticalTimeline className={Classes.timeline} animate={false}>
-        <VerticalTimelineElement
+      <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#191d2b", color: "#fff", border: "0px" }}
           contentArrowStyle={{ borderRight: "7px solid #191d2b" }}
-          date="2020 - present"
+          date="2021 - Present"
           iconStyle={{
             background: "#191d2b",
             color: "#037fff",
@@ -29,11 +29,33 @@ export default function Experience() {
           }}
           icon={<i class="fas fa-briefcase"></i>}
         >
-          <h3 className="vertical-timeline-element-title">ReactJs Developer</h3>
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Leapfrog Technology Inc.</h4>
+          <p>
+            Currently working as a Software Engineer at Leapfrog Technology Inc. My job is used to build an excellent softwares for health care devices using modern
+            technologies.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#191d2b", color: "#fff", border: "0px" }}
+          contentArrowStyle={{ borderRight: "7px solid #191d2b" }}
+          date="2020 - Dec 2020"
+          iconStyle={{
+            background: "#191d2b",
+            color: "#037fff",
+            fontSize: "25px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          icon={<i class="fas fa-briefcase"></i>}
+        >
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
           <h4 className="vertical-timeline-element-subtitle">SochWare</h4>
           <p>
-            Currently working as react js developer at sochware. My work is
-            build modern web design, interact with API's. Now bulding a hospital
+            Worked as a React js developer at sochware. My work is
+            build modern web design, interact with API's. Here, built hospital
             management system (HMS) for Suswastha hospital.
           </p>
         </VerticalTimelineElement>
