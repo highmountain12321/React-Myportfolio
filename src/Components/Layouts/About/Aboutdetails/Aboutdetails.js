@@ -1,8 +1,8 @@
 import React from "react";
-import myimage from "../../../../assests/about/sajid.JPG";
 import Table from "./Table/Table";
-import mycv from "../../../../assests/CV/Sajid_Ansari_CV.pdf";
 import Classes from "./Aboutdetails.module.css";
+import myimage from "../../../../assests/about/sajid.JPG";
+import myresume from "../../../../assests/CV/Sajid_Ansari_resume.pdf";
 
 const aboutdetailes = () => {
   const table = ["table table-borderless", Classes.textcolor];
@@ -27,7 +27,7 @@ const aboutdetailes = () => {
         <table className={table.join(" ")}>
           <Table />
         </table>
-        <a href={mycv} download>
+        <a href={myresume} download>
           <button className="btn btn-primary">DOWNLOAD CV</button>
         </a>
       </div>
