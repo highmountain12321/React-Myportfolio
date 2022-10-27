@@ -2,7 +2,7 @@ import React from "react";
 import Table from "./Table/Table";
 import Classes from "./Aboutdetails.module.css";
 import myimage from "../../../../assests/about/sajid.JPG";
-import myresume from "../../../../assests/CV/Sajid_Ansari_resume.pdf";
+import myresume from "../../../../assests/CV/SajidAnsariResume.pdf";
 
 const aboutdetailes = () => {
   const table = ["table table-borderless", Classes.textcolor];
